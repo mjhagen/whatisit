@@ -12,6 +12,6 @@ component
       return getMetadata( val ).type;
     }
 
-    return val.getClass().getCanonicalName();
+    return val.getClass().getName();
   }
 }

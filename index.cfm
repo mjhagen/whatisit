@@ -1,7 +1,8 @@
 <cfscript>
   inst = new whatisit();
-  obj = new whatisit();
+  tst = 0;
 
+  obj = new whatisit();
   typesOfVar = [
     obj.what,
     obj,
@@ -9,7 +10,9 @@
     {},
     123,
     "abc",
-    now()
+    now(),
+    1+2+3,
+    tst++
   ];
 
   for( typeOfVar in typesOfVar )
