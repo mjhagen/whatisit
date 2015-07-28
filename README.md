@@ -1,7 +1,7 @@
 # whatisit
 lib to find out what type a cfml variable is
 
-```
+```coldfusion
 inst = new whatisit();
 
 obj = new whatisit();
